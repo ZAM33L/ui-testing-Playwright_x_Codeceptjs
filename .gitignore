@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+report/
+coverage/
+
+# CodeceptJS output
+output/
+logs/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+
+# Package lock files (optional - usually keep this)
+# package-lock.json
+# yarn.lock

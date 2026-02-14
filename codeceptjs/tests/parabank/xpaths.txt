@@ -1,0 +1,27 @@
+register form
+//form[@action='register.htm']
+login form
+//form[@action='login.htm']
+
+fields
+
+First Name://form[@action='register.htm']/descendant::input[1]
+Last Name://form[@action='register.htm']/descendant::input[2]	
+Address://form[@action='register.htm']/descendant::input[3]	
+City://form[@action='register.htm']/descendant::input[4]
+State://form[@action='register.htm']/descendant::input[5]	
+Zip Code://form[@action='register.htm']/descendant::input[6]
+Phone #://form[@action='register.htm']/descendant::input[7]	
+SSN://form[@action='register.htm']/descendant::input[8]	
+ 
+Username://form[@action='register.htm']/descendant::input[9]		
+Password://form[@action='register.htm']/descendant::input[10]	
+Confirm://form[@action='register.htm']/descendant::input[11]	
+
+REGISTER://form[@action='register.htm']/descendant::input[12]	
+
+
+loginpage
+Username: (//form//input)[1]
+Password: (//form//input)[2]
+login: (//form//input)[3]
