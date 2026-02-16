@@ -1,4 +1,4 @@
-const loginPage = require('../pages/loginPage')
+const loginPage = require('../pages/loginMethods')
 
 Feature('Saucedemo')
 Before(async()=>{

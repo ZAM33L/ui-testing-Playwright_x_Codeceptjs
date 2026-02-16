@@ -13,7 +13,7 @@ test.only('test5', async ({ page, context }) => {
         await page.locator('[data-test="password"]').fill('secret_sauce');
 
         // Click login button (corrected name)
-        await page.getByRole('button', { name: 'LOGIN123' }).click();
+        await page.getByRole('button', { name: 'LOGIN' }).click();
 
         // Open side menu
         await page.getByRole('button', { name: 'Open Menu' }).click();

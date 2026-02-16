@@ -1,7 +1,8 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, BrowserContext } from '@playwright/test';
 
 let context;
 let page;
+
 test.beforeAll(async ({browser})=>{
     context = await browser.newContext();
     await context.tracing.start({ snapshots: true, screenshots: true });
@@ -26,7 +27,7 @@ test('test5', async () => {
         await page.locator('[data-test="password"]').fill('secret_sauce');
 
         // Click login button (corrected name)
-        await page.getByRole('button', { name: 'LOGIN123' }).click();
+        await page.getByRole('button', { name: 'LOGIN' }).click();
 
         // Open side menu
         await page.getByRole('button', { name: 'Open Menu' }).click();
