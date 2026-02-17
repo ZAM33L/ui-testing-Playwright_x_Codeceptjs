@@ -23,7 +23,13 @@ exports.config = {
     I: './steps_file.js'
   },
 
-  plugins: {},
+  plugins: {
+    allure: {
+    enabled: true,
+    require: '@codeceptjs/allure-legacy',
+    outputDir: './allure-results', 
+  }
+  },
 
   name: 'codeceptjs'
 };
