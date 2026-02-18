@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771420106148' stop='1771420106986'>
+    <name>OrangeHRM Advanced Level Tests:</name>
+    <title>OrangeHRM Advanced Level Tests:</title>
+    <test-cases>
+        <test-case start='1771420106371' status='failed' stop='1771420106691'>
+            <name>simultaneous multiple user logins</name>
+            <title>simultaneous multiple user logins</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='6a010670-60d7-40f8-ac0f-02a9404b1cf1-attachment.png' type='image/png' size='4253'/>
+            </attachments>
+            <failure>
+                <message>I.grabBrowser is not a function</message>
+                <stack-trace>TypeError: I.grabBrowser is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\orangehrm\advanceleveltests.js:10:29)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
