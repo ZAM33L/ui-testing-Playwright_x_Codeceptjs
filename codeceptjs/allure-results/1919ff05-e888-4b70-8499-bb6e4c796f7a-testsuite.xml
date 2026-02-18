@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771421128592' stop='1771421131707'>
+    <name>Demo Applitools:</name>
+    <title>Demo Applitools:</title>
+    <test-cases>
+        <test-case start='1771421128865' status='passed' stop='1771421131669'>
+            <name>Login</name>
+            <title>Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771421129202' status='passed' stop='1771421130281'>
+                    <name>I am on page "https://demo.applitools.com/"</name>
+                    <title>I am on page "https://demo.applitools.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771421130284' status='passed' stop='1771421130655'>
+                    <name>I fill field "//input[@placeholder='Enter your username']", "Admin"</name>
+                    <title>I fill field "//input[@placeholder='Enter your username']", "Admin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771421130656' status='passed' stop='1771421131055'>
+                    <name>I fill field "//input[@placeholder='Enter your password']", "admin123"</name>
+                    <title>I fill field "//input[@placeholder='Enter your password']", "admin123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771421131056' status='passed' stop='1771421131389'>
+                    <name>I click "//a[text()='Sign in']"</name>
+                    <title>I click "//a[text()='Sign in']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771421131389' status='passed' stop='1771421131643'>
+                    <name>I wait for url "**/app.html", 10</name>
+                    <title>I wait for url "**/app.html", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771421131643' status='passed' stop='1771421131669'>
+                    <name>I see in current url "/app.html"</name>
+                    <title>I see in current url "/app.html"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
