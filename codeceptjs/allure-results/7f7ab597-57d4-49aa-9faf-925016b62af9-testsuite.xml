@@ -1,0 +1,215 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771595320218' stop='1771595361035'>
+    <name>DemoQa tests - TextBox:</name>
+    <title>DemoQa tests - TextBox:</title>
+    <test-cases>
+        <test-case start='1771595320473' status='passed' stop='1771595333700'>
+            <name>valid inputs</name>
+            <title>valid inputs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771595320844' status='passed' stop='1771595330948'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595330949' status='passed' stop='1771595331189'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595331190' status='passed' stop='1771595331428'>
+                    <name>I click "//a[@href='/text-box']"</name>
+                    <title>I click "//a[@href='/text-box']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595331435' status='passed' stop='1771595331438'>
+                    <name>I see in current url "/text-box"</name>
+                    <title>I see in current url "/text-box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595331438' status='passed' stop='1771595331442'>
+                    <name>I grab text from "//h1[normalize-space()='Text Box']"</name>
+                    <title>I grab text from "//h1[normalize-space()='Text Box']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595331443' status='passed' stop='1771595331732'>
+                    <name>I fill field "//input[@id='userName']", "Jameel"</name>
+                    <title>I fill field "//input[@id='userName']", "Jameel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595331733' status='passed' stop='1771595332451'>
+                    <name>I fill field "//input[@id='userEmail']", "jam@gmail.com"</name>
+                    <title>I fill field "//input[@id='userEmail']", "jam@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595332451' status='passed' stop='1771595332908'>
+                    <name>I fill field "//textarea[@id='currentAddress']", "#7 , Main Street"</name>
+                    <title>I fill field "//textarea[@id='currentAddress']", "#7 , Main Street"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595332908' status='passed' stop='1771595333491'>
+                    <name>I fill field "//textarea[@id='permanentAddress']", "#78 , Ham Street"</name>
+                    <title>I fill field "//textarea[@id='permanentAddress']", "#78 , Ham Street"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333492' status='passed' stop='1771595333647'>
+                    <name>I click "//button[@id='submit']"</name>
+                    <title>I click "//button[@id='submit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333648' status='passed' stop='1771595333680'>
+                    <name>I wait for element "//p[@id='name']", 5</name>
+                    <title>I wait for element "//p[@id='name']", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333681' status='passed' stop='1771595333687'>
+                    <name>I grab text from "//p[@id='name']"</name>
+                    <title>I grab text from "//p[@id='name']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333687' status='passed' stop='1771595333691'>
+                    <name>I grab text from "//p[@id='email']"</name>
+                    <title>I grab text from "//p[@id='email']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333691' status='passed' stop='1771595333695'>
+                    <name>I grab text from "//p[@id='currentAddress']"</name>
+                    <title>I grab text from "//p[@id='currentAddress']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595333695' status='passed' stop='1771595333699'>
+                    <name>I grab text from "//p[@id='permanentAddress']"</name>
+                    <title>I grab text from "//p[@id='permanentAddress']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771595333781' status='failed' stop='1771595346203'>
+            <name>empty inputs after reload</name>
+            <title>empty inputs after reload</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771595334106' status='passed' stop='1771595340230'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595340231' status='passed' stop='1771595340406'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595340406' status='passed' stop='1771595340581'>
+                    <name>I click "//a[@href='/text-box']"</name>
+                    <title>I click "//a[@href='/text-box']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595340584' status='passed' stop='1771595340921'>
+                    <name>I fill field "//input[@id='userName']", "Jameel"</name>
+                    <title>I fill field "//input[@id='userName']", "Jameel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595340921' status='passed' stop='1771595341460'>
+                    <name>I refresh page </name>
+                    <title>I refresh page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595341460' status='failed' stop='1771595346202'>
+                    <name>I grab value from "//input[@id='userName']"</name>
+                    <title>I grab value from "//input[@id='userName']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='b7d6f5aa-3cfa-4465-99e0-3159e19565aa-attachment.png' type='image/png' size='7378'/>
+            </attachments>
+            <failure>
+                <message>Element "//input[@id='userName']" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "//input[@id='userName']" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3523:11)
+                    at Playwright.grabValueFrom (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:1938:5)
+                    at async Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\demoqa\elements\textbox.js:70:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1771595346339' status='passed' stop='1771595360908'>
+            <name>invalid email shows error</name>
+            <title>invalid email shows error</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771595346663' status='passed' stop='1771595359298'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595359299' status='passed' stop='1771595359536'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595359538' status='passed' stop='1771595359818'>
+                    <name>I click "//a[@href='/text-box']"</name>
+                    <title>I click "//a[@href='/text-box']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595359827' status='passed' stop='1771595360712'>
+                    <name>I fill field "//input[@id='userEmail']", "invalid-email"</name>
+                    <title>I fill field "//input[@id='userEmail']", "invalid-email"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595360712' status='passed' stop='1771595360874'>
+                    <name>I click "//button[@id='submit']"</name>
+                    <title>I click "//button[@id='submit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771595360874' status='passed' stop='1771595360908'>
+                    <name>I see element "#userEmail.field-error"</name>
+                    <title>I see element "#userEmail.field-error"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

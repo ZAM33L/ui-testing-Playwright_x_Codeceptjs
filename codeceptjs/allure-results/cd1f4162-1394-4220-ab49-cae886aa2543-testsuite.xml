@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771597208349' stop='1771597218887'>
+    <name>DemoQa tests - TextBox:</name>
+    <title>DemoQa tests - TextBox:</title>
+    <test-cases>
+        <test-case start='1771597208594' status='passed' stop='1771597218833'>
+            <name>expanding all nodes</name>
+            <title>expanding all nodes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771597209010' status='passed' stop='1771597217561'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597217562' status='passed' stop='1771597217790'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597217791' status='passed' stop='1771597218119'>
+                    <name>I click "//a[@href='/checkbox']"</name>
+                    <title>I click "//a[@href='/checkbox']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218133' status='passed' stop='1771597218140'>
+                    <name>I see in current url "/checkbox"</name>
+                    <title>I see in current url "/checkbox"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218141' status='passed' stop='1771597218149'>
+                    <name>I grab text from "//h1[normalize-space()='Check Box']"</name>
+                    <title>I grab text from "//h1[normalize-space()='Check Box']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218152' status='passed' stop='1771597218168'>
+                    <name>I see element "//span[normalize-space()='Home']/parent::*/preceding-sibling::span[contains(@class,'switch')]"</name>
+                    <title>I see element "//span[normalize-space()='Home']/parent::*/preceding-sibling::span[contains(@class,'switch')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218168' status='passed' stop='1771597218331'>
+                    <name>I click "//span[normalize-space()='Home']/parent::*/preceding-sibling::span[contains(@class,'switch')]"</name>
+                    <title>I click "//span[normalize-space()='Home']/parent::*/preceding-sibling::span[contains(@class,'switch')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218332' status='passed' stop='1771597218351'>
+                    <name>I see element "//span[contains(@class,"rc-tree-checkbox") and contains(@aria-label,"Home")]"</name>
+                    <title>I see element "//span[contains(@class,"rc-tree-checkbox") and contains(@aria-label,"Home")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218352' status='passed' stop='1771597218555'>
+                    <name>I click "//span[contains(@class,"rc-tree-checkbox") and contains(@aria-label,"Home")]"</name>
+                    <title>I click "//span[contains(@class,"rc-tree-checkbox") and contains(@aria-label,"Home")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218555' status='passed' stop='1771597218829'>
+                    <name>I wait for element "//div[@id='result']", 5</name>
+                    <title>I wait for element "//div[@id='result']", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771597218829' status='passed' stop='1771597218833'>
+                    <name>I grab text from "//div[@id='result']"</name>
+                    <title>I grab text from "//div[@id='result']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
