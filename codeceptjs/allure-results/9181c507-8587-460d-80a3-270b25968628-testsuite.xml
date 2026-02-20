@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771570840458' stop='1771570843191'>
+    <name>learn-automation website Tests:</name>
+    <title>learn-automation website Tests:</title>
+    <test-cases>
+        <test-case start='1771570840695' status='failed' stop='1771570842889'>
+            <name>testing state dropdown</name>
+            <title>testing state dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771570841056' status='passed' stop='1771570841977'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/signup"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570841984' status='passed' stop='1771570842858'>
+                    <name>I wait for element "select[name="state"]", 10</name>
+                    <title>I wait for element "select[name="state"]", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570842859' status='passed' stop='1771570842886'>
+                    <name>I see element "select[name="state"]"</name>
+                    <title>I see element "select[name="state"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='a33985a8-9f75-490f-9850-857b40021bc9-attachment.png' type='image/png' size='90657'/>
+            </attachments>
+            <failure>
+                <message>I.grabNumberOfElements is not a function</message>
+                <stack-trace>TypeError: I.grabNumberOfElements is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\learn-automation\stateDropDown.js:20:30)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

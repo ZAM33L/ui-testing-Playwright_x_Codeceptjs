@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771570573197' stop='1771570575830'>
+    <name>learn-automation website Tests:</name>
+    <title>learn-automation website Tests:</title>
+    <test-cases>
+        <test-case start='1771570573434' status='failed' stop='1771570575634'>
+            <name>testing state dropdown</name>
+            <title>testing state dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771570573812' status='passed' stop='1771570574799'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/signup"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570574806' status='passed' stop='1771570575213'>
+                    <name>I wait for element "select[name="state"]", 10</name>
+                    <title>I wait for element "select[name="state"]", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570575215' status='passed' stop='1771570575260'>
+                    <name>I see element "select[name="state"]"</name>
+                    <title>I see element "select[name="state"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570575260' status='passed' stop='1771570575470'>
+                    <name>I click "select[name="state"]"</name>
+                    <title>I click "select[name="state"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570575471' status='passed' stop='1771570575629'>
+                    <name>I grab number of visible elements "select[name="state"] option"</name>
+                    <title>I grab number of visible elements "select[name="state"] option"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='5ad0d248-bd99-4340-a614-2f15c46bc422-attachment.png' type='image/png' size='90657'/>
+            </attachments>
+            <failure>
+                <message>Rajasthan should be present in the dropdown
+                
+                false !== true
+                </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Rajasthan should be present in the dropdown
+                
+                false !== true
+                
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\learn-automation\stateDropDown.js:38:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

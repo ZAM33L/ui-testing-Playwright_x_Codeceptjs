@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771575236384' stop='1771575255120'>
+    <name>Context test:</name>
+    <title>Context test:</title>
+    <test-cases>
+        <test-case start='1771575236641' status='failed' stop='1771575254814'>
+            <name>testing multipleTabs</name>
+            <title>testing multipleTabs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771575237010' status='passed' stop='1771575244750'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/login"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771575244760' status='passed' stop='1771575245026'>
+                    <name>I click "(//a[contains(@href,'facebook')])[1]"</name>
+                    <title>I click "(//a[contains(@href,'facebook')])[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771575245027' status='passed' stop='1771575249830'>
+                    <name>I switch to next tab </name>
+                    <title>I switch to next tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771575249830' status='passed' stop='1771575250108'>
+                    <name>I close current tab </name>
+                    <title>I close current tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771575250109' status='failed' stop='1771575254812'>
+                    <name>I switch to previous tab </name>
+                    <title>I switch to previous tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='7565b820-f136-4ba6-affe-1b4795ca2d77-attachment.png' type='image/png' size='84646'/>
+            </attachments>
+            <failure>
+                <message>There is no ability to switch to previous tab with offset 1</message>
+                <stack-trace>Error: There is no ability to switch to previous tab with offset 1
+                    at Playwright.switchToPreviousTab (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:1259:13)
+                    at runNextTicks (node:internal/process/task_queues:65:5)
+                    at process.processTimers (node:internal/timers:520:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

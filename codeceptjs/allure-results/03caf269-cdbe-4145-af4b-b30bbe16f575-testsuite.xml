@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771570958699' stop='1771570960815'>
+    <name>learn-automation website Tests:</name>
+    <title>learn-automation website Tests:</title>
+    <test-cases>
+        <test-case start='1771570958954' status='passed' stop='1771570960772'>
+            <name>testing state dropdown</name>
+            <title>testing state dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771570959341' status='passed' stop='1771570960221'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/signup"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570960229' status='passed' stop='1771570960629'>
+                    <name>I wait for element "#state", 10</name>
+                    <title>I wait for element "#state", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570960630' status='passed' stop='1771570960649'>
+                    <name>I see element "#state"</name>
+                    <title>I see element "#state"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771570960649' status='passed' stop='1771570960758'>
+                    <name>I grab text from all "#state option"</name>
+                    <title>I grab text from all "#state option"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

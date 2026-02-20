@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771571987131' stop='1771571995491'>
+    <name>lelarn automation dashboard test:</name>
+    <title>lelarn automation dashboard test:</title>
+    <test-cases>
+        <test-case start='1771571987364' status='passed' stop='1771571995398'>
+            <name>login to application using pom</name>
+            <title>login to application using pom</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771571987766' status='passed' stop='1771571988745'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/login"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571988747' status='passed' stop='1771571989284'>
+                    <name>I fill field "(//form//input)[1]", "admin@email.com"</name>
+                    <title>I fill field "(//form//input)[1]", "admin@email.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571989285' status='passed' stop='1771571989734'>
+                    <name>I fill field "(//form//input)[2]", "admin@123"</name>
+                    <title>I fill field "(//form//input)[2]", "admin@123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571989735' status='passed' stop='1771571989951'>
+                    <name>I click "//button[@type="submit"]"</name>
+                    <title>I click "//button[@type="submit"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571989953' status='passed' stop='1771571994962'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571994963' status='passed' stop='1771571995146'>
+                    <name>I click "//span[text()='Manage']"</name>
+                    <title>I click "//span[text()='Manage']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571995146' status='passed' stop='1771571995397'>
+                    <name>I click "//a[normalize-space()='Manage Courses']"</name>
+                    <title>I click "//a[normalize-space()='Manage Courses']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

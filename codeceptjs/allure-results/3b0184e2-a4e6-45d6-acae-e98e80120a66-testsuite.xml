@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771571654310' stop='1771571662086'>
+    <name>login test - learn automation:</name>
+    <title>login test - learn automation:</title>
+    <test-cases>
+        <test-case start='1771571654580' status='passed' stop='1771571662037'>
+            <name>login to application using pom</name>
+            <title>login to application using pom</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771571654983' status='passed' stop='1771571655911'>
+                    <name>I am on page "https://freelance-learn-automation.vercel.app/login"</name>
+                    <title>I am on page "https://freelance-learn-automation.vercel.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571655913' status='passed' stop='1771571656412'>
+                    <name>I fill field "(//form//input)[1]", "admin@email.com"</name>
+                    <title>I fill field "(//form//input)[1]", "admin@email.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571656413' status='passed' stop='1771571656817'>
+                    <name>I fill field "(//form//input)[2]", "admin@123"</name>
+                    <title>I fill field "(//form//input)[2]", "admin@123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571656819' status='passed' stop='1771571657031'>
+                    <name>I click "//button[@type="submit"]"</name>
+                    <title>I click "//button[@type="submit"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771571657033' status='passed' stop='1771571662036'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
