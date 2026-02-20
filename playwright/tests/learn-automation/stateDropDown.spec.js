@@ -3,14 +3,6 @@ import { test, expect } from '@playwright/test';
 test('testing State dropdown', async ({ page }) => {
     await page.goto('https://freelance-learn-automation.vercel.app/signup');
 
-    // await page.locator("#state").selectOption({label:"Goa"})
-    // await page.locator("#state").selectOption({index:4})
-    // await page.waitForTimeout(5000)
-    // const value = await page.locator("#state").textContent()
-    // console.log("all dropdown values : "+value)
-    // await expect(value.includes("Kerala")).toBeTruthy()
-
-
     const select = page.locator('select[name="state"]');
     await expect(select).toBeVisible();
 
