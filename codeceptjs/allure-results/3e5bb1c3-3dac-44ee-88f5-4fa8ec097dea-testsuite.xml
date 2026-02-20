@@ -1,0 +1,185 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771567538422' stop='1771567605544'>
+    <name>internet heroku app tests:</name>
+    <title>internet heroku app tests:</title>
+    <test-cases>
+        <test-case start='1771567538633' status='passed' stop='1771567555020'>
+            <name>testing alerts 1 - JS alert</name>
+            <title>testing alerts 1 - JS alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567539049' status='passed' stop='1771567544675'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567544679' status='passed' stop='1771567549688'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567549696' status='passed' stop='1771567549988'>
+                    <name>I click "//button[text()='Click for JS Alert']"</name>
+                    <title>I click "//button[text()='Click for JS Alert']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567549990' status='passed' stop='1771567549991'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567549994' status='passed' stop='1771567555005'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567555006' status='passed' stop='1771567555017'>
+                    <name>I grab text from "//p[@id="result"]"</name>
+                    <title>I grab text from "//p[@id="result"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771567555060' status='passed' stop='1771567572571'>
+            <name>testing alerts 2 - JS confirm accept</name>
+            <title>testing alerts 2 - JS confirm accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567555269' status='passed' stop='1771567562223'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567562224' status='passed' stop='1771567567233'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567567237' status='passed' stop='1771567567557'>
+                    <name>I click "//button[text()='Click for JS Confirm']"</name>
+                    <title>I click "//button[text()='Click for JS Confirm']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567567558' status='passed' stop='1771567567559'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567567560' status='passed' stop='1771567572564'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567572564' status='passed' stop='1771567572571'>
+                    <name>I grab text from "//p[@id="result"]"</name>
+                    <title>I grab text from "//p[@id="result"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771567572617' status='failed' stop='1771567589037'>
+            <name>testing alerts 2 - JS confirm dismiss</name>
+            <title>testing alerts 2 - JS confirm dismiss</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567572834' status='passed' stop='1771567579307'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567579307' status='passed' stop='1771567584321'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567584326' status='failed' stop='1771567589034'>
+                    <name>I cancel popup </name>
+                    <title>I cancel popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='56996e10-a6e6-4ede-b9e7-7ca76d518abd-attachment.png' type='image/png' size='30828'/>
+            </attachments>
+            <failure>
+                <message>There is no Popup visible</message>
+                <stack-trace>Error: There is no Popup visible
+                    at Popup.assertPopupVisible (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\extras\Popup.js:53:13)
+                    at Popup.assertPopupActionType (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\extras\Popup.js:58:10)
+                    at Playwright.cancelPopup (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:686:16)
+                    at Step.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\step.js:122:47)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1771567589207' status='failed' stop='1771567605376'>
+            <name>testing alerts 3 - JS prompt</name>
+            <title>testing alerts 3 - JS prompt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567589620' status='passed' stop='1771567595641'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567595641' status='passed' stop='1771567600648'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567600651' status='failed' stop='1771567605375'>
+                    <name>I accept popup "avengers doomsday"</name>
+                    <title>I accept popup "avengers doomsday"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='50b5f6c1-830f-4f21-ae09-50e325122867-attachment.png' type='image/png' size='30828'/>
+            </attachments>
+            <failure>
+                <message>There is no Popup visible</message>
+                <stack-trace>Error: There is no Popup visible
+                    at Popup.assertPopupVisible (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\extras\Popup.js:53:13)
+                    at Popup.assertPopupActionType (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\extras\Popup.js:58:10)
+                    at Playwright.acceptPopup (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:665:16)
+                    at Step.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\step.js:122:47)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

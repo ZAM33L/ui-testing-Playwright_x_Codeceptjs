@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771566083697' stop='1771566095476'>
+    <name>OrangeHRM Constrained Tests:</name>
+    <title>OrangeHRM Constrained Tests:</title>
+    <test-cases>
+        <test-case start='1771566085509' status='passed' stop='1771566095432'>
+            <name>testing upload</name>
+            <title>testing upload</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771566085875' status='passed' stop='1771566093194'>
+                    <name>I am on page "https://the-internet.herokuapp.com/upload"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/upload"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771566093212' status='passed' stop='1771566093436'>
+                    <name>I attach file "#file-upload", "images/mrRobot.jpg"</name>
+                    <title>I attach file "#file-upload", "images/mrRobot.jpg"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771566093437' status='passed' stop='1771566095424'>
+                    <name>I click "#file-submit"</name>
+                    <title>I click "#file-submit"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771566095424' status='passed' stop='1771566095431'>
+                    <name>I grab text from "//h3"</name>
+                    <title>I grab text from "//h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

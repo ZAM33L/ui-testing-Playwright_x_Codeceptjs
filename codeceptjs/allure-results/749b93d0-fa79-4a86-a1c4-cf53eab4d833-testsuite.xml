@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771567254679' stop='1771567288190'>
+    <name>internet heroku app tests:</name>
+    <title>internet heroku app tests:</title>
+    <test-cases>
+        <test-case start='1771567254933' status='passed' stop='1771567269370'>
+            <name>testing alerts 1 - JS alert</name>
+            <title>testing alerts 1 - JS alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567255251' status='passed' stop='1771567269009'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567269018' status='passed' stop='1771567269358'>
+                    <name>I click "//button[text()='Click for JS Alert']"</name>
+                    <title>I click "//button[text()='Click for JS Alert']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567269359' status='passed' stop='1771567269360'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567269360' status='passed' stop='1771567269369'>
+                    <name>I grab text from "//p[@id="result"]"</name>
+                    <title>I grab text from "//p[@id="result"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771567269424' status='passed' stop='1771567275367'>
+            <name>testing alerts 2 - JS confirm accept</name>
+            <title>testing alerts 2 - JS confirm accept</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567269680' status='passed' stop='1771567275007'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567275012' status='passed' stop='1771567275342'>
+                    <name>I click "//button[text()='Click for JS Confirm']"</name>
+                    <title>I click "//button[text()='Click for JS Confirm']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567275348' status='passed' stop='1771567275348'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567275349' status='passed' stop='1771567275367'>
+                    <name>I grab text from "//p[@id="result"]"</name>
+                    <title>I grab text from "//p[@id="result"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771567275433' status='failed' stop='1771567281549'>
+            <name>testing alerts 2 - JS confirm dismiss</name>
+            <title>testing alerts 2 - JS confirm dismiss</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567275718' status='passed' stop='1771567281209'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567281214' status='passed' stop='1771567281544'>
+                    <name>I click "//button[text()='Click for JS Confirm']"</name>
+                    <title>I click "//button[text()='Click for JS Confirm']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='fed518e7-06ce-495f-9685-80324236c97f-attachment.png' type='image/png' size='31898'/>
+            </attachments>
+            <failure>
+                <message>I.dismissPopup is not a function</message>
+                <stack-trace>TypeError: I.dismissPopup is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\internet-herokuapp\alerts.js:41:7)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1771567281903' status='failed' stop='1771567287894'>
+            <name>testing alerts 3 - JS prompt</name>
+            <title>testing alerts 3 - JS prompt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771567282176' status='passed' stop='1771567287575'>
+                    <name>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/javascript_alerts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771567287580' status='passed' stop='1771567287892'>
+                    <name>I click "//button[text()='Click for JS Prompt']"</name>
+                    <title>I click "//button[text()='Click for JS Prompt']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='96723a4a-bdf2-4bb7-a22f-ceda6ceff50d-attachment.png' type='image/png' size='31810'/>
+            </attachments>
+            <failure>
+                <message>I.fillFieldInPopup is not a function</message>
+                <stack-trace>TypeError: I.fillFieldInPopup is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\internet-herokuapp\alerts.js:48:7)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
