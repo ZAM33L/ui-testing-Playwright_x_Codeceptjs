@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771830876443' stop='1771830915778'>
+    <name>DemoQa tests - Buttons:</name>
+    <title>DemoQa tests - Buttons:</title>
+    <test-cases>
+        <test-case start='1771830876760' status='passed' stop='1771830885146'>
+            <name>successful page load</name>
+            <title>successful page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771830877230' status='passed' stop='1771830884693'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830884693' status='passed' stop='1771830884900'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830884901' status='passed' stop='1771830885093'>
+                    <name>I click "//a[@href='/buttons']"</name>
+                    <title>I click "//a[@href='/buttons']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830885108' status='passed' stop='1771830885118'>
+                    <name>I see in current url "/buttons"</name>
+                    <title>I see in current url "/buttons"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830885119' status='passed' stop='1771830885145'>
+                    <name>I see "Buttons", "h1"</name>
+                    <title>I see "Buttons", "h1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771830885198' status='passed' stop='1771830893821'>
+            <name>visibility of buttons</name>
+            <title>visibility of buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771830885494' status='passed' stop='1771830893317'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830893317' status='passed' stop='1771830893559'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830893559' status='passed' stop='1771830893756'>
+                    <name>I click "//a[@href='/buttons']"</name>
+                    <title>I click "//a[@href='/buttons']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830893765' status='passed' stop='1771830893791'>
+                    <name>I see element "#doubleClickBtn"</name>
+                    <title>I see element "#doubleClickBtn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830893793' status='passed' stop='1771830893809'>
+                    <name>I see element "#rightClickBtn"</name>
+                    <title>I see element "#rightClickBtn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830893809' status='passed' stop='1771830893821'>
+                    <name>I see element "//button[text()='Click Me']"</name>
+                    <title>I see element "//button[text()='Click Me']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771830893860' status='passed' stop='1771830900385'>
+            <name>double click button test</name>
+            <title>double click button test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771830894183' status='passed' stop='1771830899808'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830899808' status='passed' stop='1771830899973'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830899974' status='passed' stop='1771830900137'>
+                    <name>I click "//a[@href='/buttons']"</name>
+                    <title>I click "//a[@href='/buttons']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830900141' status='passed' stop='1771830900371'>
+                    <name>I double click "#doubleClickBtn"</name>
+                    <title>I double click "#doubleClickBtn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830900372' status='passed' stop='1771830900384'>
+                    <name>I see "You have done a double click", "#doubleClickMessage"</name>
+                    <title>I see "You have done a double click", "#doubleClickMessage"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771830900411' status='passed' stop='1771830908721'>
+            <name>right click button test</name>
+            <title>right click button test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771830900749' status='passed' stop='1771830907923'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830907924' status='passed' stop='1771830908173'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830908173' status='passed' stop='1771830908426'>
+                    <name>I click "//a[@href='/buttons']"</name>
+                    <title>I click "//a[@href='/buttons']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830908427' status='passed' stop='1771830908704'>
+                    <name>I right click "#rightClickBtn"</name>
+                    <title>I right click "#rightClickBtn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830908704' status='passed' stop='1771830908721'>
+                    <name>I see "You have done a right click", "#rightClickMessage"</name>
+                    <title>I see "You have done a right click", "#rightClickMessage"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771830908776' status='passed' stop='1771830915737'>
+            <name>single click button test</name>
+            <title>single click button test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771830909105' status='passed' stop='1771830915083'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830915083' status='passed' stop='1771830915340'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830915341' status='passed' stop='1771830915523'>
+                    <name>I click "//a[@href='/buttons']"</name>
+                    <title>I click "//a[@href='/buttons']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830915525' status='passed' stop='1771830915714'>
+                    <name>I click "//button[text()='Click Me']"</name>
+                    <title>I click "//button[text()='Click Me']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771830915714' status='passed' stop='1771830915737'>
+                    <name>I see "You have done a dynamic click", "#dynamicClickMessage"</name>
+                    <title>I see "You have done a dynamic click", "#dynamicClickMessage"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

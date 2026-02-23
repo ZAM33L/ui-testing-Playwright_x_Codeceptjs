@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771832231652' stop='1771832261551'>
+    <name>DemoQa tests - Links:</name>
+    <title>DemoQa tests - Links:</title>
+    <test-cases>
+        <test-case start='1771832231936' status='passed' stop='1771832238934'>
+            <name>successful page load</name>
+            <title>successful page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771832232329' status='passed' stop='1771832238414'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832238415' status='passed' stop='1771832238632'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832238633' status='passed' stop='1771832238884'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832238895' status='passed' stop='1771832238904'>
+                    <name>I see in current url "/links"</name>
+                    <title>I see in current url "/links"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832238905' status='passed' stop='1771832238933'>
+                    <name>I see "Links", "h1"</name>
+                    <title>I see "Links", "h1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771832238999' status='passed' stop='1771832246576'>
+            <name>click simple link (new tab)</name>
+            <title>click simple link (new tab)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771832239309' status='passed' stop='1771832245114'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832245114' status='passed' stop='1771832245275'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832245276' status='passed' stop='1771832245473'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832245476' status='passed' stop='1771832245486'>
+                    <name>I see element "#simpleLink"</name>
+                    <title>I see element "#simpleLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832245487' status='passed' stop='1771832245765'>
+                    <name>I click "#simpleLink"</name>
+                    <title>I click "#simpleLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832245766' status='passed' stop='1771832246341'>
+                    <name>I switch to next tab </name>
+                    <title>I switch to next tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832246342' status='passed' stop='1771832246350'>
+                    <name>I see in current url "demoqa.com"</name>
+                    <title>I see in current url "demoqa.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832246350' status='passed' stop='1771832246576'>
+                    <name>I close current tab </name>
+                    <title>I close current tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771832246595' status='passed' stop='1771832253849'>
+            <name>click dynamic link (new tab)</name>
+            <title>click dynamic link (new tab)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771832246954' status='passed' stop='1771832252315'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832252316' status='passed' stop='1771832252578'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832252578' status='passed' stop='1771832252812'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832252816' status='passed' stop='1771832252823'>
+                    <name>I see element "#dynamicLink"</name>
+                    <title>I see element "#dynamicLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832252823' status='passed' stop='1771832253032'>
+                    <name>I click "#dynamicLink"</name>
+                    <title>I click "#dynamicLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832253032' status='passed' stop='1771832253607'>
+                    <name>I switch to next tab </name>
+                    <title>I switch to next tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832253608' status='passed' stop='1771832253614'>
+                    <name>I see in current url "demoqa.com"</name>
+                    <title>I see in current url "demoqa.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832253615' status='passed' stop='1771832253848'>
+                    <name>I close current tab </name>
+                    <title>I close current tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771832253873' status='passed' stop='1771832261527'>
+            <name>click created link</name>
+            <title>click created link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771832254211' status='passed' stop='1771832260115'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832260116' status='passed' stop='1771832260266'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832260266' status='passed' stop='1771832260430'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832260433' status='passed' stop='1771832260446'>
+                    <name>I see element "#created"</name>
+                    <title>I see element "#created"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832260446' status='passed' stop='1771832260615'>
+                    <name>I click "#created"</name>
+                    <title>I click "#created"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832260615' status='passed' stop='1771832261518'>
+                    <name>I wait for element "#linkResponse", 5</name>
+                    <title>I wait for element "#linkResponse", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771832261518' status='passed' stop='1771832261526'>
+                    <name>I see "Link has responded with staus 201 and status text Created", "#linkResponse"</name>
+                    <title>I see "Link has responded with staus 201 and status text Created", "#linkResponse"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

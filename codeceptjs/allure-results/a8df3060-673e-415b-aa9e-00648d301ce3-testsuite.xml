@@ -1,0 +1,219 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771831820161' stop='1771831853161'>
+    <name>DemoQa tests - Links:</name>
+    <title>DemoQa tests - Links:</title>
+    <test-cases>
+        <test-case start='1771831820393' status='passed' stop='1771831826719'>
+            <name>successful page load</name>
+            <title>successful page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771831820746' status='passed' stop='1771831826284'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831826285' status='passed' stop='1771831826489'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831826491' status='passed' stop='1771831826699'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831826702' status='passed' stop='1771831826710'>
+                    <name>I see in current url "/links"</name>
+                    <title>I see in current url "/links"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831826710' status='passed' stop='1771831826718'>
+                    <name>I see "Links", "h1"</name>
+                    <title>I see "Links", "h1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771831826745' status='failed' stop='1771831833690'>
+            <name>click simple link (new tab)</name>
+            <title>click simple link (new tab)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771831827053' status='passed' stop='1771831832875'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831832876' status='passed' stop='1771831833126'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831833127' status='passed' stop='1771831833354'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831833360' status='passed' stop='1771831833433'>
+                    <name>I see element "#simpleLink"</name>
+                    <title>I see element "#simpleLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831833433' status='passed' stop='1771831833689'>
+                    <name>I click "#simpleLink"</name>
+                    <title>I click "#simpleLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='2c5e6cb0-e645-4391-bfd4-7ddd5830e272-attachment.png' type='image/png' size='38427'/>
+            </attachments>
+            <failure>
+                <message>I.waitForNumberOfTabs is not a function</message>
+                <stack-trace>TypeError: I.waitForNumberOfTabs is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\demoqa\elements\links.js:50:7)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1771831834235' status='failed' stop='1771831840692'>
+            <name>click dynamic link (new tab)</name>
+            <title>click dynamic link (new tab)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771831834568' status='passed' stop='1771831840017'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831840017' status='passed' stop='1771831840265'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831840265' status='passed' stop='1771831840459'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831840462' status='passed' stop='1771831840471'>
+                    <name>I see element "#dynamicLink"</name>
+                    <title>I see element "#dynamicLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831840471' status='passed' stop='1771831840691'>
+                    <name>I click "#dynamicLink"</name>
+                    <title>I click "#dynamicLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='7c666898-527a-474e-b9f6-d173b45ec083-attachment.png' type='image/png' size='38181'/>
+            </attachments>
+            <failure>
+                <message>I.waitForNumberOfTabs is not a function</message>
+                <stack-trace>TypeError: I.waitForNumberOfTabs is not a function
+                    at Test.&lt;anonymous> (D:\app-files\vscode\pw_x_ccjs\codeceptjs\tests\demoqa\elements\links.js:62:7)
+                    at test.fn (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\mocha\lib\runner.js:550:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1771831841352' status='failed' stop='1771831852982'>
+            <name>click created link</name>
+            <title>click created link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771831841743' status='passed' stop='1771831847543'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831847544' status='passed' stop='1771831847767'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831847767' status='passed' stop='1771831848006'>
+                    <name>I click "//a[@href='/links']"</name>
+                    <title>I click "//a[@href='/links']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831848011' status='passed' stop='1771831848065'>
+                    <name>I see element "#created"</name>
+                    <title>I see element "#created"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831848065' status='passed' stop='1771831848230'>
+                    <name>I click "#created"</name>
+                    <title>I click "#created"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771831848231' status='failed' stop='1771831852982'>
+                    <name>I see "status 201", "#linkResponse"</name>
+                    <title>I see "status 201", "#linkResponse"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='db666fe1-a582-4e69-8248-729f35762e87-attachment.png' type='image/png' size='55255'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771828147876' stop='1771828164021'>
+    <name>DemoQa tests - Web Tables:</name>
+    <title>DemoQa tests - Web Tables:</title>
+    <test-cases>
+        <test-case start='1771828148098' status='failed' stop='1771828163745'>
+            <name>successful page load</name>
+            <title>successful page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828148497' status='passed' stop='1771828158769'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828158770' status='passed' stop='1771828158996'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828158996' status='failed' stop='1771828163743'>
+                    <name>I click "//a[@href='webtables']"</name>
+                    <title>I click "//a[@href='webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='597fa515-ae3e-4dd7-9c7c-782e58cae13c-attachment.png' type='image/png' size='249223'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "//a[@href='webtables']" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "//a[@href='webtables']" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3523:11)
+                    at Playwright.proceedClick (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3286:5)
+                    at runNextTicks (node:internal/process/task_queues:65:5)
+                    at process.processImmediate (node:internal/timers:453:9)
+                    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+                    at async promiseRetry.retries.retries (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\scenario.js:144:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

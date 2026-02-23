@@ -1,0 +1,310 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1771828773075' stop='1771828980505'>
+    <name>DemoQa tests - Web Tables:</name>
+    <title>DemoQa tests - Web Tables:</title>
+    <test-cases>
+        <test-case start='1771828773311' status='passed' stop='1771828793977'>
+            <name>successful page load</name>
+            <title>successful page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828773626' status='passed' stop='1771828793425'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828793426' status='passed' stop='1771828793744'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828793744' status='passed' stop='1771828793911'>
+                    <name>I click "//a[@href='/webtables']"</name>
+                    <title>I click "//a[@href='/webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828793916' status='passed' stop='1771828793935'>
+                    <name>I see in current url "/webtables"</name>
+                    <title>I see in current url "/webtables"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828793936' status='passed' stop='1771828793976'>
+                    <name>I grab text from "//h1[normalize-space()='Web Tables']"</name>
+                    <title>I grab text from "//h1[normalize-space()='Web Tables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771828794017' status='passed' stop='1771828802475'>
+            <name>visible records</name>
+            <title>visible records</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828794548' status='passed' stop='1771828801838'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828801839' status='passed' stop='1771828802070'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828802071' status='passed' stop='1771828802276'>
+                    <name>I click "//a[@href='/webtables']"</name>
+                    <title>I click "//a[@href='/webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828802301' status='passed' stop='1771828802363'>
+                    <name>I see "Kierra"</name>
+                    <title>I see "Kierra"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828802364' status='passed' stop='1771828802467'>
+                    <name>I see "Alden"</name>
+                    <title>I see "Alden"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828802467' status='passed' stop='1771828802475'>
+                    <name>I see "Cierra"</name>
+                    <title>I see "Cierra"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771828802491' status='passed' stop='1771828813637'>
+            <name>add new record test</name>
+            <title>add new record test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828802787' status='passed' stop='1771828810522'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828810522' status='passed' stop='1771828810763'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828810763' status='passed' stop='1771828811003'>
+                    <name>I click "//a[@href='/webtables']"</name>
+                    <title>I click "//a[@href='/webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828811007' status='passed' stop='1771828811246'>
+                    <name>I click "#addNewRecordButton"</name>
+                    <title>I click "#addNewRecordButton"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828811246' status='passed' stop='1771828811276'>
+                    <name>I see element "//div[@class='modal-content']"</name>
+                    <title>I see element "//div[@class='modal-content']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828811276' status='passed' stop='1771828811567'>
+                    <name>I fill field "#firstName", "Jameel"</name>
+                    <title>I fill field "#firstName", "Jameel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828811568' status='passed' stop='1771828812071'>
+                    <name>I fill field "#lastName", "Asfer"</name>
+                    <title>I fill field "#lastName", "Asfer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828812071' status='passed' stop='1771828812634'>
+                    <name>I fill field "#userEmail", "jam@gmail.com"</name>
+                    <title>I fill field "#userEmail", "jam@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828812634' status='passed' stop='1771828812813'>
+                    <name>I fill field "#age", "22"</name>
+                    <title>I fill field "#age", "22"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828812813' status='passed' stop='1771828813166'>
+                    <name>I fill field "#salary", "10000"</name>
+                    <title>I fill field "#salary", "10000"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828813166' status='passed' stop='1771828813370'>
+                    <name>I fill field "#department", "IT"</name>
+                    <title>I fill field "#department", "IT"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828813370' status='passed' stop='1771828813537'>
+                    <name>I click "#submit"</name>
+                    <title>I click "#submit"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828813538' status='passed' stop='1771828813637'>
+                    <name>I see "Jameel"</name>
+                    <title>I see "Jameel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771828813684' status='passed' stop='1771828949654'>
+            <name>search records</name>
+            <title>search records</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828813982' status='passed' stop='1771828949046'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949047' status='passed' stop='1771828949293'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949293' status='passed' stop='1771828949490'>
+                    <name>I click "//a[@href='/webtables']"</name>
+                    <title>I click "//a[@href='/webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949494' status='passed' stop='1771828949526'>
+                    <name>I see "Kierra"</name>
+                    <title>I see "Kierra"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949526' status='passed' stop='1771828949543'>
+                    <name>I see "Gentry"</name>
+                    <title>I see "Gentry"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949544' status='passed' stop='1771828949611'>
+                    <name>I see "29"</name>
+                    <title>I see "29"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949611' status='passed' stop='1771828949624'>
+                    <name>I see "kierra@example.com"</name>
+                    <title>I see "kierra@example.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949625' status='passed' stop='1771828949640'>
+                    <name>I see "2000"</name>
+                    <title>I see "2000"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828949640' status='passed' stop='1771828949654'>
+                    <name>I see "Legal"</name>
+                    <title>I see "Legal"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1771828949681' status='failed' stop='1771828980172'>
+            <name>edit a record by search</name>
+            <title>edit a record by search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1771828949839' status='passed' stop='1771828974430'>
+                    <name>I am on page "https://demoqa.com/"</name>
+                    <title>I am on page "https://demoqa.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828974431' status='passed' stop='1771828974600'>
+                    <name>I click "//a[@href='/elements']"</name>
+                    <title>I click "//a[@href='/elements']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828974601' status='passed' stop='1771828974822'>
+                    <name>I click "//a[@href='/webtables']"</name>
+                    <title>I click "//a[@href='/webtables']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828974825' status='passed' stop='1771828975194'>
+                    <name>I fill field "#searchBox", "Kierra"</name>
+                    <title>I fill field "#searchBox", "Kierra"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828975195' status='passed' stop='1771828975225'>
+                    <name>I see "Kierra"</name>
+                    <title>I see "Kierra"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1771828975225' status='failed' stop='1771828980169'>
+                    <name>I click "//div[text()='Kierra']/..//span[@title='Edit']"</name>
+                    <title>I click "//div[text()='Kierra']/..//span[@title='Edit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='42f70028-d124-4a58-b4a3-f0609af8ff7c-attachment.png' type='image/png' size='138553'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "//div[text()='Kierra']/..//span[@title='Edit']" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "//div[text()='Kierra']/..//span[@title='Edit']" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3523:11)
+                    at Playwright.proceedClick (D:\app-files\vscode\pw_x_ccjs\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3286:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
